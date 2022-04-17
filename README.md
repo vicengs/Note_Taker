@@ -1,76 +1,80 @@
-# 11 Express.js: Note Taker
+# Note Taker
 
-## Your Task
+[![Github](https://img.shields.io/static/v1?label=Github&message=vicengs&color=yellow)](https://github.com/vicengs) [![Email](https://img.shields.io/static/v1?label=Email&message=Vicente&color=informational)](mailto:vicen1@hotmail.com) [![License](https://img.shields.io/static/v1?label=License&message=MIT&color=green)](http://choosealicense.com/licenses/mit/)
 
-Your challenge is to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+## Description
+  
+Application called Note Taker that can be used to write and save notes.
 
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
+## Built with
 
-Before you start, clone [the starter code](https://github.com/coding-boot-camp/miniature-eureka).
+- JavaScript
+- Node.js
+- Express.js
+- Tested with Insomnia
+- Deployed with Heroku
 
-## User Story
+## Table of Contents
 
-```
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
-```
+* [Installation](#installation)
+* [Usage](#usage)
+* [Webpage](#webpage)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Credits](#credits)
+* [Questions](#questions)
+* [License](#license)
+* [Screenshots](#screenshots)
 
-## Acceptance Criteria
+## Installation
 
-```
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
-```
+Clone repository to local machine to use local or just open the deployed link from Heroku.
 
-## Mock-Up
+## Usage
 
-The following images show the web application's appearance and functionality: 
+Local - Execute on project path the following command "npm start" then open http://localhost:3001/
+Heroku (remote server) - Open project link https://morning-oasis-10095.herokuapp.com/
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo-01.png)
+## Webpage
 
-![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./Assets/11-express-homework-demo-02.png)
+https://morning-oasis-10095.herokuapp.com/
 
-## Getting Started
+## Contributing
 
-The application should have a `db.json` file on the back end, which will be used to store and retrieve notes using the `fs` module.
+In short, when you submit code changes, your submissions are understood to be under the same License that covers the project. Feel free to contact the maintainers if that's a concern.
 
-The following HTML routes should be created:
+## Tests
 
-* `GET /notes` should return the `notes.html` file.
+Check the notes created in left menu and check in the same section how the notes that have been deleted disappear.
 
-* `GET *` should return the `index.html` file.
+## Credits
 
-The following API routes should be created:
+Made by Vicente Garcia Sepulveda
 
-* `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
+## Questions
 
-* `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into `npm` packages that could do this for you).
+#### Github
+  
+- https://github.com/vicengs
 
-## Bonus
+#### Github repository
 
-You haven’t learned how to handle DELETE requests, but this application has that functionality in the front end. As a bonus, see if you can add the DELETE route to the application using the following guideline:
+- https://github.com/vicengs/Note_Taker
 
-* `DELETE /api/notes/:id` should receive a query parameter containing the id of a note to delete. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
+#### SSH to clone:
 
-## Review
+    git@github.com:vicengs/Note_Taker.git
+  
+#### E-mail
+  
+- For more questions contact me at vicen1@hotmail.com
 
-You are required to submit BOTH of the following for review:
+## License
 
-* The URL of the functional, deployed application.
+MIT License - A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+## Screenshots
+    
+![Server](/assets/images/server.jpg)
+![Main](/assets/images/mainPage.jpg)
+![Notes](/assets/images/notesPage.jpg)
