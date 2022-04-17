@@ -16,39 +16,14 @@
       "id": "2"
     },
     {
-      "title": "New Note 3",
-      "text": "Test new note 3",
-      "id": "3"
-    },
-    {
-      "title": "New Note 3",
-      "text": "Test new note 3",
+      "title": "New Note 4",
+      "text": "Test new note 4",
       "id": "4"
     },
     {
-      "title": "New Note 3",
-      "text": "Test new note 3",
+      "title": "New Note 5",
+      "text": "Test new note 5",
       "id": "5"
-    },
-    {
-      "title": "OTRA NUEVA",
-      "text": "Este va a ser un texto mucho mas largo solo para hacer una prueba y ver que no sea un problema la longitud que se le da a la nota, en este proyecto espero sacar 10 y voy a intentar hacer el borrado",
-      "id": "6"
-    },
-    {
-      "title": "DSFDXD",
-      "text": "XZCX",
-      "id": "7"
-    },
-    {
-      "title": "DSFDXDS",
-      "text": "FDSFDX",
-      "id": "8"
-    },
-    {
-      "title": "JHGJH",
-      "text": "GFGD",
-      "id": "9"
     }
   ]
 }
