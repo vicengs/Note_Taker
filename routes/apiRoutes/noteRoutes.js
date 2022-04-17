@@ -43,8 +43,8 @@ router.post("/notes", (req, res) => {
         res.json(note);
     };
 });
-router.delete("/notes", (req, res) => {
-    const suprNote = deleteNote(req.body.id, notes);
+router.delete("/notes/:id", (req, res) => {
+    const suprNote = deleteNote(req.params.id, notes);
     res.json(suprNote);
 });
 module.exports = router;
